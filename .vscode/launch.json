@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Launch React",
+        "type": "pwa-chrome",
+        "request": "launch",
+        "url": "http://localhost:3000",  // React 預設端口
+        "webRoot": "${workspaceFolder}/src",
+        "breakOnLoad": true
+      }
+    ]
+  }
+  
